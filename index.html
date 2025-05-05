@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Lowa Lintas Global</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.png"
+    />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta1.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Swiper CSS-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <style>
+      .swiper {
+        padding-bottom: 30px;
+      }
+
+      .swiper-slide {
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        opacity: 0.5;
+        transform: scale(0.9);
+      }
+
+      .swiper-slide-active {
+        opacity: 1 !important;
+        transform: scale(1.05);
+      }
+
+      .card {
+        transition: box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .card-img-top {
+        object-fit: cover;
+        height: 200px;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- ========================= preloader start ========================= -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="spinner">
+          <div class="spinner-container">
+            <div class="spinner-rotator">
+              <div class="spinner-left">
+                <div class="spinner-circle"></div>
+              </div>
+              <div class="spinner-right">
+                <div class="spinner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- ========================= header start ========================= -->
+    <header class="header navbar-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo/logo.svg" alt="Logo" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+              </button>
+
+              <div
+                class="collapse navbar-collapse sub-menu-bar"
+                id="navbarSupportedContent"
+              >
+                <ul id="nav" class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="#about" href="about.html">Tentang</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="#about" href="about.html">Layanan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="#about" href="about.html">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="#about" href="about.html">Partner Kami</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="#about" href="about.html">Hubungi Kami</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- navbar collapse -->
+            </nav>
+            <!-- navbar -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </header>
+    <!-- ========================= header end ========================= -->
+
+    <!-- ========================= hero-section start ========================= -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-5 col-lg-6">
+            <div class="hero-content-wrapper">
+              <h2 class="mb-25 wow fadeInDown" data-wow-delay=".2s">
+                PT. Lowa Lintas Global
+              </h2>
+              <h1 class="mb-25 wow fadeInDown" data-wow-delay=".2s">
+                Mitra Transformasi Digital Nusantara
+              </h1>
+              <p class="mb-35 wow fadeInLeft" data-wow-delay=".4s">
+                Kami adalah penyedia layanan Internet Service Provider (ISP) dan
+                solusi Teknologi Informasi (TI) yang siap membantu digitalisasi
+                bisnis dan instansi Anda. Layanan kami mencakup jaringan
+                internet fiber & wireless, pengembangan aplikasi berbasis web,
+                hingga solusi cloud dan perangkat keras.
+              </p>
+              <a href="#about" class="theme-btn">Hubungi Kami Sekarang</a>
+            </div>
+          </div>
+
+          <div class="col-xl-7 col-lg-6">
+            <div class="hero-img">
+              <div class="d-inline-block hero-img-right">
+                <img
+                  src="assets/img/hero/hero-img.png"
+                  alt=""
+                  class="image wow fadeInRight"
+                  data-wow-delay=".5s"
+                />
+                <img
+                  src="assets/img/hero/dots.shape.svg"
+                  alt=""
+                  class="dot-shape"
+                />
+                <div class="video-btn">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM"
+                    class="glightbox"
+                    ><i class="lni lni-play"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= hero-section end ========================= -->
+
+    <!-- ========================= client-logo-section start ========================= -->
+    <section class="client-logo-section pt-100">
+      <div class="container">
+        <div class="client-logo-wrapper">
+          <div
+            class="client-logo-carousel d-flex align-items-center justify-content-between"
+          >
+            <div class="client-logo">
+              <img src="assets/img/client-logo/uideck-logo.svg" alt="" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/img/client-logo/pagebulb-logo.svg" alt="" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/img/client-logo/lineicons-logo.svg" alt="" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/img/client-logo/graygrids-logo.svg" alt="" />
+            </div>
+            <div class="client-logo">
+              <img src="assets/img/client-logo/lineicons-logo.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= client-logo-section end ========================= -->
+
+    <!-- ========================= feature-section start ========================= -->
+    <section class="feature-section pt-130">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
+            <div class="section-title text-center mb-55">
+              <span class="wow fadeInDown" data-wow-delay=".2s"
+                >Fitur Unggulan</span
+              >
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                Mengapa Memilih PT. Lowa Lintas Global?
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                Dengan jaringan luas, layanan responsif, dan teknologi terkini,
+                kami hadir sebagai mitra andal dalam kebutuhan internet dan
+                solusi digital Anda. Kami berkomitmen memberikan layanan
+                berkualitas tinggi yang disesuaikan dengan kebutuhan pelanggan.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex flex-wrap">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="feature-box box-style flex-fill h-100">
+              <div class="feature-icon box-icon-style">
+                <i class="lni lni-network"></i>
+              </div>
+              <div class="box-content-style feature-content">
+                <h4>ISP Solution</h4>
+                <p>
+                  Layanan internet dedicated dan sharing dengan kecepatan
+                  tinggi, stabilitas tinggi, serta dukungan teknis responsif
+                  untuk kebutuhan bisnis, pemerintahan, dan residensial.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="feature-box box-style flex-fill h-100">
+              <div class="feature-icon box-icon-style">
+                <i class="lni lni-code-alt"></i>
+              </div>
+              <div class="box-content-style feature-content">
+                <h4>IT Solution</h4>
+                <p>
+                  Pengembangan aplikasi web dan sistem informasi yang
+                  disesuaikan dengan alur kerja bisnis Anda, mendukung efisiensi
+                  operasional dan transformasi digital.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="feature-box box-style flex-fill h-100">
+              <div class="feature-icon box-icon-style">
+                <i class="lni lni-signal"></i>
+              </div>
+              <div class="box-content-style feature-content">
+                <h4>Connectivity Solution</h4>
+                <p>
+                  Pembangunan dan integrasi jaringan fiber dan wireless hingga
+                  ke daerah terpencil, mendukung pemerataan akses internet di
+                  seluruh wilayah Indonesia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= feature-section end ========================= -->
+
+    <!--========================= about-section start========================= -->
+    <section id="about" class="pt-100">
+      <div class="about-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6">
+              <div class="about-img-wrapper">
+                <div
+                  class="about-img position-relative d-inline-block wow fadeInLeft"
+                  data-wow-delay=".3s"
+                >
+                  <img src="assets/img/about/about-img.png" alt="" />
+
+                  <div class="about-experience">
+                    <h3>Lebih dari 5 Tahun Pengalaman Profesional</h3>
+                    <p>
+                      Kami telah melayani berbagai klien dari sektor bisnis,
+                      pendidikan, dan pemerintahan dengan solusi internet cepat
+                      dan pengembangan sistem web yang andal dan disesuaikan
+                      dengan kebutuhan masing-masing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+              <div class="about-content-wrapper">
+                <div class="section-title">
+                  <span class="wow fadeInUp" data-wow-delay=".2s"
+                    >Tentang Kami</span
+                  >
+                  <h2 class="mb-40 wow fadeInRight" data-wow-delay=".4s">
+                    PT. Lowa Lintas Global
+                  </h2>
+                </div>
+                <div class="about-content">
+                  <p class="mb-45 wow fadeInUp" data-wow-delay=".6s">
+                    PT. Lowa Lintas Global (LLG) adalah perusahaan yang bergerak
+                    di bidang penyedia layanan Internet (ISP), pengembangan
+                    aplikasi web, serta solusi pembuatan website profesional.
+                    Kami berkomitmen menyediakan layanan digital yang andal,
+                    efisien, dan sesuai kebutuhan, mulai dari instansi
+                    pemerintahan, BUMDes, hingga sektor swasta dan UMKM.
+                  </p>
+
+                  <div class="counter-up wow fadeInUp" data-wow-delay=".5s">
+                    <div class="counter">
+                      <span
+                        id="secondo"
+                        class="countup count color-1"
+                        cup-end="100"
+                        cup-append="+"
+                        >100</span
+                      >
+                      <h4>Klien Terlayani</h4>
+                      <p>
+                        Telah dipercaya oleh lebih dari 100 entitas, mulai dari
+                        instansi daerah, desa digital, hingga pelaku bisnis di
+                        berbagai sektor industri.
+                      </p>
+                    </div>
+                    <div class="counter">
+                      <span
+                        id="secondo"
+                        class="countup count color-2"
+                        cup-end="50"
+                        cup-append="+"
+                        >50</span
+                      >
+                      <h4>Proyek Digital</h4>
+                      <p>
+                        Kami telah menyelesaikan puluhan proyek berbasis
+                        digital—mulai dari pembangunan jaringan internet hingga
+                        sistem informasi desa.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--========================= about-section end========================= -->
+
+    <!-- ========================= service-section start ========================= -->
+    <section id="service" class="service-section pt-130 pb-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
+            <div class="section-title text-center mb-55">
+              <span class="wow fadeInDown" data-wow-delay=".2s">Layanan</span>
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                Layanan Terbaik Kami
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                Kami menyediakan layanan komprehensif mulai dari pemasangan
+                jaringan internet hingga pengembangan aplikasi web dan website.
+                Didukung oleh tim ahli dan teknologi terkini, kami siap menjadi
+                mitra transformasi digital Anda.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex flex-wrap" style="row-gap: 20px">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="feature-box box-style flex-fill h-100">
+              <div class="service-icon box-icon-style">
+                <i class="lni lni-network"></i>
+              </div>
+              <div class="box-content-style service-content">
+                <h4>Layanan Internet Dedicated</h4>
+                <p>
+                  Koneksi stabil dan cepat untuk kebutuhan perusahaan,
+                  pemerintahan, dan sektor pendidikan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="feature-box box-style flex-fill h-100">
+              <div class="service-icon box-icon-style">
+                <i class="lni lni-cloud-network"></i>
+              </div>
+              <div class="box-content-style service-content">
+                <h4>Solusi Cloud & Hosting</h4>
+                <p>
+                  Infrastruktur cloud andal untuk penyimpanan data, website, dan
+                  aplikasi bisnis Anda.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="feature-box box-style flex-fill h-100">
+              <div class="service-icon box-icon-style">
+                <i class="lni lni-cog"></i>
+              </div>
+              <div class="box-content-style service-content">
+                <h4>Pengembangan Sistem & Aplikasi</h4>
+                <p>
+                  Kami rancang solusi perangkat lunak khusus yang sesuai dengan
+                  kebutuhan organisasi Anda.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="feature-box box-style flex-fill h-100">
+              <div class="service-icon box-icon-style">
+                <i class="lni lni-world"></i>
+              </div>
+              <div class="box-content-style service-content">
+                <h4>Jaringan Fiber & Wireless</h4>
+                <p>
+                  Infrastruktur jaringan modern berbasis fiber dan wireless
+                  untuk cakupan luas dan andal.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="feature-box box-style flex-fill h-100">
+              <div class="service-icon box-icon-style">
+                <i class="lni lni-bulb"></i>
+              </div>
+              <div class="box-content-style service-content">
+                <h4>Kemitraan BUMDes</h4>
+                <p>
+                  Kolaborasi bersama desa dalam program Internet Desa untuk
+                  mendukung transformasi digital.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="feature-box box-style flex-fill h-100">
+              <div class="service-icon box-icon-style">
+                <i class="lni lni-protection"></i>
+              </div>
+              <div class="box-content-style service-content">
+                <h4>Dukungan & Pemeliharaan</h4>
+                <p>
+                  Layanan purna jual dan support teknis profesional untuk
+                  memastikan operasional optimal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= service-section end ========================= -->
+
+    <!-- ========================= contact-section start ========================= -->
+    <section
+      id="contact"
+      class="contact-section cta-bg img-bg pt-110 pb-100"
+      style="
+        background-image: url('https://ispsimple.com/wp-content/uploads/2022/08/isp-software.jpg');
+      "
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-5 col-lg-7">
+            <div class="section-title mb-60">
+              <span class="text-white wow fadeInDown" data-wow-delay=".2s">
+                Hubungi Kami
+              </span>
+              <h2 class="text-white wow fadeInUp" data-wow-delay=".4s">
+                Siap Mendukung Transformasi Digital Anda
+              </h2>
+              <p class="text-white wow fadeInUp" data-wow-delay=".6s">
+                Ingin membangun jaringan internet, sistem informasi, atau
+                infrastruktur ICT lainnya? Tim kami siap membantu Anda dengan
+                solusi terbaik.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-7 col-lg-5">
+            <div class="contact-btn text-start text-lg-end">
+              <a href="contact.html" class="theme-btn">Hubungi Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= contact-section end ========================= -->
+
+    <!-- ========================= vision-mission start ========================= -->
+    <section id="visi-misi" class="service-section pt-130 pb-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-lg-10 mx-auto">
+            <div class="section-title text-center mb-55">
+              <span class="wow fadeInDown" data-wow-delay=".2s"
+                >Visi & Misi</span
+              >
+              <h2 class="wow fadeInUp" data-wow-delay=".4s">Komitmen Kami</h2>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                PT. Lowa Lintas Global berkomitmen untuk menghadirkan layanan
+                teknologi informasi yang berkualitas, menjangkau hingga pelosok,
+                dan mendukung transformasi digital masyarakat Indonesia.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-start">
+          <!-- Visi -->
+          <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+            <h4 class="mb-3">Visi</h4>
+            <p>
+              Menjadi perusahaan ICT terdepan di Indonesia Timur yang mendorong
+              transformasi digital di setiap lapisan masyarakat.
+            </p>
+          </div>
+
+          <!-- Misi -->
+          <div class="col-md-6 wow fadeInRight" data-wow-delay=".5s">
+            <h4 class="mb-3">Misi</h4>
+            <ul class="text-start ps-3">
+              <li>
+                ✔ Menyediakan layanan digital yang berkualitas dan terjangkau
+              </li>
+              <li>✔ Mendukung konektivitas hingga pelosok desa</li>
+              <li>✔ Berinovasi dalam teknologi dan pelayanan</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= vision-mission end ========================= -->
+
+    <!-- ========================= gallery-section start ========================= -->
+    <section
+      id="gallery"
+      class="pt-70 pb-70 img-bg"
+      style="background-image: url('assets/img/bg/common-bg.svg')"
+    >
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="text-white">Galeri</span>
+          <h2 class="text-white">Dokumentasi Proyek & Kegiatan</h2>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Card 1 -->
+            <div class="swiper-slide">
+              <div class="card border-0 shadow-sm rounded overflow-hidden">
+                <img
+                  src="https://png.pngtree.com/thumb_back/fh260/background/20241022/pngtree-it-sector-worker-isp-work-place-image_16439547.jpg"
+                  class="card-img-top"
+                  alt="Proyek Instalasi"
+                />
+                <div class="card-body text-center p-3">
+                  <small class="text-muted"
+                    >Instalasi jaringan di area industri</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="swiper-slide">
+              <div class="card border-0 shadow-sm rounded overflow-hidden">
+                <img
+                  src="https://png.pngtree.com/thumb_back/fh260/background/20241022/pngtree-it-sector-worker-isp-work-place-image_16439547.jpg"
+                  class="card-img-top"
+                  alt="Pemasangan Router"
+                />
+                <div class="card-body text-center p-3">
+                  <small class="text-muted"
+                    >Pemasangan router untuk pelanggan korporat</small
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="swiper-slide">
+              <div class="card border-0 shadow-sm rounded overflow-hidden">
+                <img
+                  src="https://png.pngtree.com/thumb_back/fh260/background/20241022/pngtree-it-sector-worker-isp-work-place-image_16439547.jpg"
+                  class="card-img-top"
+                  alt="Maintenance Berkala"
+                />
+                <div class="card-body text-center p-3">
+                  <small class="text-muted"
+                    >Maintenance jaringan berkala di area rural</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= gallery-section end ========================= -->
+
+    <!-- ========================= footer start ========================= -->
+    <footer class="footer pt-100">
+      <div class="container">
+        <div class="row">
+          <!-- Logo & Deskripsi -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div
+              class="footer-widget mb-60 wow fadeInLeft"
+              data-wow-delay=".2s"
+            >
+              <a href="index.html" class="logo mb-30">
+                <img src="assets/img/logo/logo.svg" alt="logo" />
+              </a>
+              <p class="mb-30 footer-desc">
+                PT. Lowa Lintas Global adalah perusahaan penyedia layanan
+                internet (ISP) dan pengembang software web & aplikasi berbasis
+                website.
+              </p>
+            </div>
+          </div>
+
+          <!-- Navigasi Cepat -->
+          <div class="col-xl-2 col-lg-2 col-md-6">
+            <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".4s">
+              <h4>Menu</h4>
+              <ul class="footer-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Kontak -->
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div
+              class="footer-widget mb-60 wow fadeInRight"
+              data-wow-delay=".6s"
+            >
+              <h4>Kontak</h4>
+              <ul class="footer-contact">
+                <li><p>Telepon: 0812-3456-7890</p></li>
+                <li><p>Email: info@lowalintasglobal.co.id</p></li>
+                <li><p>Alamat: Jl. Telekomunikasi No. 10, Jakarta</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright & Sosmed -->
+        <div class="copyright-area">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="footer-social-links">
+                <ul class="d-flex">
+                  <li>
+                    <a href="#"><i class="lni lni-facebook-filled"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lni lni-instagram-filled"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lni lni-linkedin-original"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <p class="wow fadeInUp" data-wow-delay=".3s">
+                © 2025 PT. Lowa Lintas Global. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ========================= footer end ========================= -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+      <i class="lni lni-arrow-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        centeredSlides: true,
+        slidesPerView: 1.2,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2.2,
+          },
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
+    <script src="assets/js/bootstrap.bundle-5.0.0-beta1.min.js"></script>
+    <script src="assets/js/contact-form.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/imagesloaded.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
